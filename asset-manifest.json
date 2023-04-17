@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cra_memory_game/static/css/main.ac16fdaf.css",
+    "main.js": "/cra_memory_game/static/js/main.927ec03b.js",
+    "index.html": "/cra_memory_game/index.html",
+    "main.ac16fdaf.css.map": "/cra_memory_game/static/css/main.ac16fdaf.css.map",
+    "main.927ec03b.js.map": "/cra_memory_game/static/js/main.927ec03b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac16fdaf.css",
+    "static/js/main.927ec03b.js"
+  ]
+}
