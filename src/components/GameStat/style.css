@@ -1,0 +1,61 @@
+.game-stat-wrapper {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: var(--Dark-Blue);
+  height: 50px;
+  gap: 20px;
+}
+.time-wrapper {
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--Light-grey-2);
+}
+.text {
+  color: var(--Grey-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.number {
+  color: var(--Dark-Blue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.moves-wrapper {
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: var(--Light-grey-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media (max-width: 585px) {
+  .moves-wrapper {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .time-wrapper {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .game-stat-wrapper {
+    width: 100%;
+  }
+}

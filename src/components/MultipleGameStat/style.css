@@ -1,0 +1,15 @@
+.players-number-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .players-number-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}

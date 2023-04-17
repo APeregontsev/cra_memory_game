@@ -1,0 +1,28 @@
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /*   margin-bottom: 50px; */
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .title-wrapper {
+    flex-direction: column;
+  }
+}
+
+.title-text {
+  color: var(--Title-text);
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.buttons-wrapper {
+}
+
+@media (max-width: 450px) {
+  .buttons-wrapper {
+    flex-direction: column;
+  }
+}

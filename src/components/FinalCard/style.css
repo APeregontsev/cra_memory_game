@@ -1,0 +1,84 @@
+.none {
+  display: none;
+}
+
+.final-card-wrapper {
+  position: absolute;
+}
+
+.final-card-multi {
+  background-color: #ffffff;
+  width: 654px;
+
+  padding: 55px;
+  border-radius: 20px;
+}
+
+@media (max-width: 710px) {
+  .final-card-multi {
+    width: 550px;
+  }
+}
+
+@media (max-width: 560px) {
+  .final-card-multi {
+    width: auto;
+  }
+}
+
+.card-header {
+}
+.header-title {
+  color: var(--Dark-Blue);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+
+  text-align: center;
+}
+.header-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--Grey-font);
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.players-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.winner {
+  background-color: var(--Dark-Blue);
+}
+
+.winner .player-text {
+  color: var(--White);
+}
+
+.winner .player-score {
+  color: var(--White);
+}
+
+.player-card-wrapper.container {
+  padding: 15px 30px;
+  max-width: none;
+}
+
+.player-wrapper {
+}
+.player-name {
+}
+.player-score {
+}
+
+@media (max-width: 360px) {
+  .player-card-wrapper.container {
+    flex-direction: column;
+  }
+}

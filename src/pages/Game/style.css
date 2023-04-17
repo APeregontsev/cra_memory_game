@@ -1,0 +1,118 @@
+/* --------GAME-CARD---------------------------------------------------------------------- */
+
+.game-card-wrapper {
+  width: 950px;
+  height: 950px;
+  padding: 30px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 950px) {
+  .game-card-wrapper {
+    width: 850px;
+  }
+}
+
+@media (max-width: 860px) {
+  .game-card-wrapper {
+    width: 750px;
+  }
+}
+
+@media (max-width: 800px) {
+  .game-card-wrapper {
+    width: 700px;
+  }
+}
+
+@media (max-width: 705px) {
+  .game-card-wrapper {
+    width: auto;
+  }
+}
+
+.title-text {
+  margin-right: 50px;
+}
+
+.playing-zone-wrapper {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .playing-zone-wrapper {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 570px) {
+  .playing-zone-wrapper {
+    width: 360px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 450px) {
+  .playing-zone-wrapper {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+@media (max-width: 393px) {
+  .playing-zone-wrapper {
+    width: 302px;
+    height: 302px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 385px) {
+  .playing-zone-wrapper {
+    width: 260px;
+    height: 260px;
+    gap: 5px;
+  }
+}
+
+.playing-zone-wrapper.small_zone {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* --------4x4 ZONE---------------------------------------------------------------------- */
+.playing-zone-wrapper.small_zone {
+  width: 360px;
+  height: 360px;
+}
+
+@media (max-width: 570px) {
+  .playing-zone-wrapper.small_zone {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 390px) {
+  .playing-zone-wrapper.small_zone {
+    width: 190px;
+    height: 190px;
+  }
+}
+/* --------4x4 ZONE---------------------------------------------------------------------- */
+
+/* --------OPACITY---------------------------------------------------------------------- */
+.opacity {
+  opacity: 0.3;
+}
+/* --------OPACITY---------------------------------------------------------------------- */

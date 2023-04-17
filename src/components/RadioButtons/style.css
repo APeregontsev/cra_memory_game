@@ -1,0 +1,45 @@
+.radio__rating {
+  overflow: hidden;
+  display: none;
+}
+
+.radio__rating:checked + .radio__label {
+  background-color: var(--Dark-Blue);
+  color: var(--White);
+}
+
+.radio__label {
+  display: flex;
+  flex-direction: row;
+  height: 52px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  background-color: var(--Light-grey);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.radio__label:hover {
+  background-color: var(--Hover);
+}
+
+.radio__theme {
+}
+.label_text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}
+.radio__players {
+}
+
+@media (max-width: 570px) {
+  .label_text {
+    font-size: 20px;
+  }
+}
